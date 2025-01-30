@@ -233,7 +233,7 @@ veg$rhizm2.allometric.rootshoot<-veg$agm2.allom*veg$rhiz.shoot
 veg$rhizm2.allometric.rootgreenshoot<-veg$agm2.allom*veg$rhiz.green.shoot
 veg$rhizm2.allo.new.rootshoot<-veg$agm2.allom.new*veg$rhiz.shoot
 veg$rhizm2.allo.new.rootgreenshoot<-veg$agm2.allom.new*veg$rhiz.green.shoot
-veg$rhizm2.core.stemscaled<-(veg$rhiz.total/veg$spal_live_stem_count)*(veg$spal_live_stem_count/veg$vegplot_area_cm2)*(100*100)
+veg$rhizm2.core.stemscaled<-(veg$rhiz.total/veg$core_live_stem_count)*(veg$spal_live_stem_count/veg$vegplot_area_cm2)*(100*100)
 
 veg$AGCg<-veg$percentC/100*veg$agm2.allom
 veg$wholeplantCg<-veg$percentC/100*(veg$agm2.allom+veg$bgm2.core.stemscaled)
